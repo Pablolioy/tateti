@@ -56,3 +56,15 @@
   border-color: aqua;
   font-size: 50px;
 }
+
+.turn .cuadrado{
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+#FinDePartida {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}

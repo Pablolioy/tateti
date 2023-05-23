@@ -1,7 +1,10 @@
-export default function Cuadrado({ children , index, actualizarTurno }) {
+export default function Cuadrado({ children , index, actualizarTurno, win }) {
 
         const handleClick = () => {
-            actualizarTurno(index)
+            if(win) return
+            else {
+                actualizarTurno ? actualizarTurno(index) : false
+             }   
         }
 
     return (
